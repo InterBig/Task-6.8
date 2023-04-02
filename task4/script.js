@@ -1,9 +1,11 @@
 const  testTextField = document.querySelector('#testTextField');
 
-testTextField.onclick = function() {
-  // тело обработчика
-  event.preventDefault();
-  //console.log('Это тот блок');
-  this.textContent = prompt('Введите Текст');
-  // конец тела обработчика
-}
+//testTextField.onclick = function() {
+//    event.preventDefault();
+//    this.textContent = prompt('Введите Текст');
+//  }
+
+testTextField.addEventListener('click', (event) => {
+    event.preventDefault();
+    testTextField.textContent = prompt('Введите Текст');
+  })
