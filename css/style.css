@@ -16,7 +16,8 @@ header {
     margin: auto;
     opacity: 0.9;
     top: 50px;
-    border: 5px solid #da1a1a;
+    border: 5px solid #c7e2fa;
+    background-color: #e9f3fc;
     /*background-image: url(../img/claudio-schwarz-i25aqE_YUZs-unsplash.jpg);
     background-size: contain;*/
 }
@@ -52,8 +53,8 @@ footer .links {
     
 nav .links > a,
 footer .links >a  {
-    color: #093347;
-    background-color: #8ff13f;
+    color: #000000;
+    background-color: #ddf7f8;
     padding: 0 5px;
     font-size: 1.4em;
     font-weight: 800;
@@ -65,8 +66,8 @@ footer .links >a  {
 /*меняем цвет и фон при наведении */
 nav .links > a:hover,
 footer .links > a:hover {
-    color: rgb(10, 13, 238);
-    background-color: #86887e;
+    color: rgb(0, 0, 0);
+    background-color: #91bcfc;
 }
 
 article {
@@ -78,24 +79,24 @@ article {
     border-bottom: 1px solid rgb(128, 128, 128);
 }
 
-article a {
+/*article a {
     color: rgb(33, 37, 41);
     text-decoration: none;
 }
 
 article a:hover {
     color: #00a100;
-}
+}*/
 
 article h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 5px;
 }
 
-.article-meta {
+/*.article-meta {
     color: rgb(199, 37, 37);
     margin-bottom: 5px;
-}
+}*/
 
 
 /* меняем цвет фона у четных задач */
@@ -126,7 +127,7 @@ article:nth-child(4) h3::before {
 .copyright {
     color: rgb(44, 19, 187);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .TaskSection {
