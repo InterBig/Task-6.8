@@ -123,32 +123,6 @@ article:nth-child(4) h3::before {
     color: rgb(255, 0, 0);
 }
 
-/*footer {
-    padding-top: 20px;
-    padding-bottom: 60px;
-    text-align: center;
-}
-    
-footer .links {
-    margin-bottom: 50px;
-}
-    
-footer .links > a {
-    color: #636b6f;
-    padding: 0 25px;
-    font-size: 23px;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-    
-/*меняем цвет и фон при наведении */
-/*footer .links > a:hover {
-    color: rgb(255, 0, 0);
-    background-color: #d0d1d3;
-}*/
-
 .copyright {
     color: rgb(44, 19, 187);
     font-family: 'Times New Roman', Times, serif;
@@ -199,3 +173,33 @@ footer .links > a {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
 }
+button,
+label,
+input {
+    font-size: 0.8em;
+}
+/*footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+    
+footer .links {
+    margin-bottom: 50px;
+}
+    
+footer .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+    
+/*меняем цвет и фон при наведении */
+/*footer .links > a:hover {
+    color: rgb(255, 0, 0);
+    background-color: #d0d1d3;
+}*/
