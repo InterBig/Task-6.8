@@ -79,14 +79,14 @@ article {
     border-bottom: 1px solid rgb(128, 128, 128);
 }
 
-/*article a {
+article a {
     color: rgb(33, 37, 41);
     text-decoration: none;
 }
 
 article a:hover {
     color: #00a100;
-}*/
+}
 
 article h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
