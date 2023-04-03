@@ -2,8 +2,7 @@ body {
     max-width: 1200px;
     min-width: 420px;
     position: relative;
-    margin: auto;
-    
+    margin: auto;   
 }
  
 header {
@@ -21,7 +20,6 @@ header {
 
 h1 {
     position: relative;
-    opacity: 5;
     top:auto; 
     margin: auto;
     text-align: center;
@@ -92,11 +90,6 @@ article h3 {
     margin-bottom: 5px;
 }
 
-article img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
 
 /* меняем цвет фона у четных задач */
 article:nth-child(even) {
@@ -116,7 +109,7 @@ article:hover {
     background-color: #c9c890;
 }
 
-/*добавляем текст с помощью псевдоэлемента 1ой и 2ой записи*/
+/*добавляем текст с помощью псевдоэлемента 4ой записи*/
 article:nth-child(4) h3::before {
 
     content: "Дополнительная  ";
@@ -154,4 +147,48 @@ footer .links > a:hover {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
-    
+
+.TaskSection {
+    position: relative;
+    /* background-color: #d0d1d3;*/
+    top: 10%; 
+    text-align: center;
+    max-width: 1000px;
+    min-width: 420px;
+    margin: 0 auto 32px;
+    padding: 6px 1px;
+   /* border-bottom: 1px solid rgb(128, 128, 128);*/
+    color: rgb(44, 19, 187);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+}
+
+.TaskSection2 {
+    position: relative;
+    background-color: #d0d1d3;
+    top: 5%; 
+    text-align: center;
+    max-width: 1000px;
+    min-width: 420px;
+    margin: 0 auto 32px;
+    padding: 1px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    color: rgb(44, 19, 187);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.TaskSection3 {
+    position: relative;
+    /*background-color: #d0d1d3;*/
+    top: 5%; 
+    text-align: center;
+    max-width: 1000px;
+    min-width: 420px;
+    margin: 0 auto 32px;
+    padding: 1px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    /*color: rgb(44, 19, 187);*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}

@@ -1,6 +1,11 @@
 #trafficLight {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background: black;
+    position: relative;
+    top:auto; 
+    margin: auto;
+    border: 5px solid #000000;
+    /*text-align: center;*/
   }

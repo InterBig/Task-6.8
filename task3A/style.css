@@ -3,16 +3,28 @@
     height: 100px;
     border-radius: 50%;
     background: black;
+    position: relative;
+    top:auto; 
+    margin: auto;
+    border: 5px solid #000000;
   }
 #trafficLight2 {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background: black;
+    position: relative;
+    top:auto; 
+    margin: auto;
+    border: 5px solid #000000;
   }
 #trafficLight3 {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background: black;
+    position: relative;
+    top:auto; 
+    margin: auto;
+    border: 5px solid #000000;
   }

@@ -1,18 +1,21 @@
 const trafficLightEl1 = document.querySelector('#trafficLight1');
 const trafficLightEl2 = document.querySelector('#trafficLight2');
 const trafficLightEl3 = document.querySelector('#trafficLight3');
+ColorLight.textContent = "черный";
 
 
 function makeYellow() {
-    trafficLightEl2.style.background = ('yellow');
-    trafficLightEl1.style.background = ('black');
-    trafficLightEl3.style.background = ('black');
-    trafficLightEl1.removeEventListener('click', makeYellow);
-    trafficLightEl2.removeEventListener('click', makeYellow);
-    trafficLightEl3.removeEventListener('click', makeYellow);
-    trafficLightEl1.addEventListener('click', makeRed);
-    trafficLightEl2.addEventListener('click', makeRed);
-    trafficLightEl3.addEventListener('click', makeRed);
+   trafficLightEl2.style.background = ('yellow');
+   trafficLightEl1.style.background = ('black');
+   trafficLightEl3.style.background = ('black');
+   trafficLightEl1.removeEventListener('click', makeYellow);
+   trafficLightEl2.removeEventListener('click', makeYellow);
+   trafficLightEl3.removeEventListener('click', makeYellow);
+   trafficLightEl1.addEventListener('click', makeRed);
+   trafficLightEl2.addEventListener('click', makeRed);
+   trafficLightEl3.addEventListener('click', makeRed);
+   ColorLight.textContent = "желтый";
+   ColorLight.style.color = 'yellow';
 }
 
 trafficLightEl1.addEventListener('click', makeRed);
@@ -29,6 +32,8 @@ function makeRed() {
    trafficLightEl1.addEventListener('click', makeGreen);
    trafficLightEl2.addEventListener('click', makeGreen);
    trafficLightEl3.addEventListener('click', makeGreen);
+   ColorLight.textContent = "красный";
+   ColorLight.style.color = 'red';
 }
 
 trafficLightEl1.addEventListener('click', makeYellow);
@@ -45,6 +50,8 @@ function makeGreen() {
    trafficLightEl1.addEventListener('click', makeYellow);
    trafficLightEl2.addEventListener('click', makeYellow);
    trafficLightEl3.addEventListener('click', makeYellow);
+   ColorLight.textContent = "зеленый";
+   ColorLight.style.color = 'green';
 }
 
 trafficLightEl1.addEventListener('click', makeGreen);

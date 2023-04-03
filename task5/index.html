@@ -2,21 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JS-Start. 3 задача</title>
+    <title>JS-Start. 5 задача - Перехват формы.</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-<form action="#">
-    <label>
-        Текст
-        <input type="text" placeholder="Введите текст" id="InputTextField">
-    </label>
-    <button type="submit">
-        Вывести текст в консоль и удалить из формы
-    </button>
-</form>
-<hr>
-<p>Введенный текст:</p>
-<p id="duplicateField"></p>
+    <header>
+        <div>
+          <h1>Модуль 6. Принципы работы JavaScript</h1>
+          <h2>6.8. Практическая работа</h2>
+          <h2>JS-Start. 5 задача - Перехват формы.</h2>
+
+        </div>
+    </header>
+    
+    <nav>
+        <div class="links">
+           <a href="../index.html">Главная</a>
+           <a href="../task1/index.html">Задача 1</a>
+           <a href="../task2/index.html">Задача 2</a>
+           <a href="../task3/index.html">Задача 3</a>
+           <a href="../task3A/index.html">Задача 3А</a>
+           <a href="../task4/index.html">Задача 4</a>
+           <a href="../task5/index.html">Задача 5</a>
+        </div>
+    </nav>
+
+    <section class="Task">
+        <article>
+            <a href="../task5/index.html">
+              <h3>JS-Start. 5 задача - Перехват формы.</h3>
+            </a>
+              <p>Создайте страницу с формой, где есть с поле ввода, кнопка отправки и текстовый блок с <b>id duplicateField</b>. 
+               При вводе текста в поле ввода <b>(input)</b> текст должен дублироваться в текстовый блок с <b>id duplicateField</b>.<br>
+               При нажатии кнопки «Вывести текст в консоль и удалить из формы» текст, написанный в <b>input</b>, должен быть выведен 
+               в консоли, а поле ввода и <b>duplicateField</b> должны быть очищены.</p>
+      
+          </article>
+    </section>
+    <section>
+        <div class="TaskSection3">
+          <form action="#">
+            <label>
+               Текст
+               <input type="text" placeholder="Введите текст" id="InputTextField">
+            </label>
+            <button type="submit">
+               Вывести текст в консоль и удалить из формы
+            </button>
+          </form>
+        </div>
+        <hr>
+        <div class="TaskSection3">
+           <p>Введенный текст:</p>
+           <p id="duplicateField"></p>
+        </div>
+    </section>
+
+<footer>
+    <div class="links">
+      <a href="../index.html">Главная</a>
+      <a href="../task1/index.html">Задача 1</a>
+      <a href="../task2/index.html">Задача 2</a>
+      <a href="../task3/index.html">Задача 3</a>
+      <a href="../task3A/index.html">Задача 3А</a>
+      <a href="../task4/index.html">Задача 4</a>
+      <a href="../task5/index.html">Задача 5</a>
+    </div>
+
+    <div class="copyright">Copyright © InterBig 2023</div>
+  </footer>
 <script src="script.js"></script>
 </body>
 </html>
